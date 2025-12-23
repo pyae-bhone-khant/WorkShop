@@ -1,6 +1,7 @@
 // import Image from "next/image";
 
 // import Home from "./Header/home";
+import Choose from "./Header/choose";
 import Menulist from "./Header/menulist";
 import Popular from "./Header/popular";
 import Taste from "./Header/Taste";
@@ -16,6 +17,7 @@ export default function Homepage() {
       <Menulist />
       <Taste />
       <Popular />
+      <Choose />
     
     </div>
   );

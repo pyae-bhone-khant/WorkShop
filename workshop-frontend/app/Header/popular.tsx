@@ -59,8 +59,8 @@ export default function Popular() {
                 {recipes.map((recipe) => (
                      <div key={recipe.id} className="w-90 h-65 hover:shadow-orange-600 hover:border-orange-600 border flex flex-col text-start p-2  shadow-2xl rounded-2xl">
 
-                    <div  >
-                      <img className="h-40 w-85" src={recipe.img} />
+                    <div>
+                        <img className="h-40 w-85" src={recipe.img} />
                       <p className="mt-4 text-xl font-bold pl-2 ">{recipe.title}</p>
                       <h1 className=" text-xl  text-orange-600 font-bold pl-2">{recipe.name}</h1>
                     </div>
