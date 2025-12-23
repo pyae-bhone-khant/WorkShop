@@ -14,15 +14,15 @@ export default function Navbar() {
     }`;
 
   return (
-    <header className="shadow-xl shadow-orange-600">
-      <div className="flex items-center justify-between px-4 md:px-10 py-3">
+    <header className="shadow-xl shadow-orange-400">
+      <div className="flex items-center justify-between px-4 md:px-30 py-3">
         
         <h4 className="text-2xl text-orange-600 font-bold">
           COOKCRAFT
         </h4>
 
         {/* Desktop Navbar */}
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden text-xl md:flex items-center gap-6">
           <Link href="/" onClick={() => setActive("home")} className={navClass("home")}>
             HOME
           </Link>
