@@ -27,7 +27,7 @@ export default function Taste() {
             id : 3,
             title : "Dinner",
             p: "We have prepared a wide variety of dinner dishes.",
-            icon : <Utensils />
+            icon : <  Utensils size={29} />
         },
          {
             id : 4,
@@ -55,8 +55,8 @@ export default function Taste() {
                    
             <div className=" gap-4 px-2 py-2 lg:grid grid-cols-3">
                {items.map(item => (
-                <div key={item.id} className="flex w-90 border gap-4  hover:shadow-orange-500 mt-10 hover:border-orange-600  justify-center shadow-2xl rounded-2xl items-center  h-25 text-start" >
-                    <div className="text-6xl text-orange-600">
+                <div key={item.id} className="flex w-90 border-2 shadow-xl gap-4  hover:shadow-orange-500 mt-10 hover:border-orange-600  justify-center  rounded-2xl items-center  h-25 text-start" >
+                    <div className="text-9xl text-orange-600">
                          {item.icon}
                     </div>
                          <div className="w-75">

@@ -2,6 +2,7 @@
 
 // import Home from "./Header/home";
 import Menulist from "./Header/menulist";
+import Popular from "./Header/popular";
 import Taste from "./Header/Taste";
 import Navbar from "./navbar/navbar";
 // import Secondnav from "./navbar/secondnav";
@@ -14,6 +15,7 @@ export default function Homepage() {
       {/* <Secondnav /> */}
       <Menulist />
       <Taste />
+      <Popular />
     
     </div>
   );
