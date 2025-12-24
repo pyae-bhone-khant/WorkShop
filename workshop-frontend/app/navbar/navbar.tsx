@@ -36,12 +36,15 @@ export default function Navbar() {
 
     {/* Desktop Buttons */}
     <div className="hidden md:flex gap-3">
-      <Button className="bg-orange-600 hover:bg-orange-700 rounded-full">Sign-up</Button>
-      <Button
+      <Button className="bg-orange-600 hover:bg-orange-700 rounded-full">
+        <Link href={'/signup'}>Sign-up</Link>
+        </Button>
+      <Button 
         variant="outline"
         className="text-orange-600 border-orange-600 hover:bg-orange-600 hover:text-white rounded-full"
       >
-        Login
+                <Link href={'/login'}>Login</Link>
+
       </Button>
     </div>
 
