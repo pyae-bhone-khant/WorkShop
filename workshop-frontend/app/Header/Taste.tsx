@@ -50,9 +50,8 @@ export default function Taste() {
         
     ]
     return (
-        <div className="flex flex-col  text-center items-center justify-center ">
-            <p className="text-4xl font-bold  mt-25 text-orange-600">Taste of Food</p>
-                   
+        <div className=" bg-white flex flex-col  text-center items-center justify-center ">
+            <p className="text-4xl font-bold  mt-25 text-orange-600">Taste of Food</p>         
             <div className=" gap-4 px-2 py-2 lg:grid grid-cols-3">
                {items.map(item => (
                 <div key={item.id} className="flex w-90 border-2 shadow-xl gap-4  hover:shadow-orange-500 mt-10 hover:border-orange-600  justify-center  rounded-2xl items-center  h-25 text-start" >

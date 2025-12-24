@@ -48,10 +48,9 @@ export default function Popular() {
             title: "Miso Ramen",
             name: "By Ramen King"
         },
-
     ]
     return (
-        <div className="mt-20 flex flex-col justify-center items-center text-center">
+        <div className=" bg-white mt-20 flex flex-col justify-center items-center text-center">
             <p className="text-4xl font-bold text-orange-600">Popular Recipes</p>
 
             <div className=" grid  grid-cols-1 gap-6 md:grid-cols-3  mt-10">

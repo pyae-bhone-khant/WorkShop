@@ -35,7 +35,7 @@ export default function Menulist() {
     };
 
     return (
-        <div className="max-w-6xl mt-40 mx-auto px-4">
+        <div className=" bg-white max-w-6xl mt-40 mx-auto px-4">
             <div
                 className="relative h-60 rounded-2xl overflow-hidden bg-cover bg-center"
                 style={{ backgroundImage: `url(${food[index].imgurl})` }}

@@ -14,7 +14,7 @@ export default function Navbar() {
     }`;
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white shadow-xl shadow-orange-400 z-50">
+    <header className=" top-0  fixed left-0 w-full bg-white shadow-xl shadow-orange-400 z-50">
   <div className="flex items-center justify-between px-4 md:px-30 py-3">
     <h4 className="text-2xl text-orange-600 font-bold">COOKCRAFT</h4>
 

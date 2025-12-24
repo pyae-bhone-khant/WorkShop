@@ -4,7 +4,8 @@ import { ShieldPlus } from 'lucide-react';
 
 export default function Choose() {
     return (
-        <div className='mt-40 flex justify-center items-center flex-col'> 
+       
+        <div className=' bg-white mt-40 flex justify-center items-center flex-col'> 
              <div className='text-4xl  mb-10 mt-15 font-bold text-orange-600'>Why Choose Us</div>
              <div className='flex gap-6 mt-4'>
 
@@ -32,5 +33,6 @@ export default function Choose() {
             </div>
              </div>
         </div>
+
     )
 }
